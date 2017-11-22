@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -120,35 +120,19 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoY-DF-Fry">
-                                <rect key="frame" x="3" y="88" width="57.5" height="30"/>
+                                <rect key="frame" x="3" y="88" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Send"/>
+                                <state key="normal" title="Connect"/>
                                 <connections>
-                                    <action selector="send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NLW-hV-miR"/>
+                                    <action selector="Connect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3yd-Ow-PCM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqx-gw-oMp">
-                                <rect key="frame" x="227" y="88" width="52" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2b-Yl-9mv">
+                                <rect key="frame" x="198" y="162" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Update"/>
+                                <state key="normal" title="Support"/>
                                 <connections>
-                                    <action selector="update:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USv-pn-QNn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2b-Yl-9mv">
-                                <rect key="frame" x="151" y="88" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Find"/>
-                                <connections>
-                                    <action selector="find:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0a-xE-meS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjE-Gn-uAw">
-                                <rect key="frame" x="299" y="88" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Remove"/>
-                                <connections>
-                                    <action selector="remove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1l7-8b-22F"/>
+                                    <action selector="support:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzE-un-zc9"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Remind" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jTM-Yn-F9t">
@@ -158,12 +142,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaI-Pf-TJs">
-                                <rect key="frame" x="79" y="88" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaI-Pf-TJs">
+                                <rect key="frame" x="3" y="163" width="136" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Create"/>
+                                <state key="normal" title="To be Supported"/>
                                 <connections>
-                                    <action selector="Create:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIo-is-udc"/>
+                                    <action selector="To_be_support:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yfn-t3-hZu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0S-pP-VdU">
@@ -172,6 +156,14 @@
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="cleartable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zIj-4Z-ut7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1y-gC-gKu">
+                                <rect key="frame" x="295" y="80" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="Send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kvk-Bz-BQd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -188,6 +180,9 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="btnsend" destination="p1y-gC-gKu" id="FmT-S4-T7L"/>
+                        <outlet property="support" destination="O2b-Yl-9mv" id="yJx-TU-S9f"/>
+                        <outlet property="tbsupport" destination="zaI-Pf-TJs" id="YE3-j9-v4V"/>
                         <outlet property="tbvmessage" destination="o1N-bd-iaq" id="brh-cG-Nsf"/>
                         <outlet property="txtin" destination="kb1-HL-A38" id="Wd2-Q8-2VV"/>
                         <outlet property="txtremind" destination="jTM-Yn-F9t" id="QoK-qV-3TA"/>
