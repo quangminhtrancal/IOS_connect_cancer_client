@@ -23,10 +23,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var txtremind: UITextField!
     @IBOutlet weak var txtin: UITextField!
-    //localhost:8080
-    //let socket = SocketIOClient(socketURL: URL(string: "http://34.228.113.108:80")!, config: [.log(true), .compress])
-    let socket = SocketIOClient(socketURL: URL(string: "http://localhost:3000")!, config: [.log(true), .compress])
-    //let socket = SocketIOClient(socketURL: URL(string: "http://10.13.32.91:2016")!, config: [.log(true), .compress])
+  
+    //let socket = SocketIOClient(socketURL: URL(string: "http://localhost:3000")!, config: [.log(true), .compress])
+    let socket = SocketIOClient(socketURL: URL(string: "http://\(ip):3000")!, config: [.log(true), .compress])
 
     var token1: String = ""
     var socketid: String = ""
